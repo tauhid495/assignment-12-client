@@ -6,7 +6,7 @@ const BannerCard = () => {
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:mx-16 mx-4'>
             {/* card 1 */}
-            <div className="card relative bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
+            <div data-aos="slide-right" className="card relative bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
                 <div className="card-body hover:text-white hover:bg-primary transition duration-300 ease-in-out">
                     <CogIcon className="icon h-12 w-12 " />
                     <h2 className="card-title">We Manufacture</h2>
@@ -16,7 +16,7 @@ const BannerCard = () => {
 
 
             {/* Card 2 */}
-            <div className="card bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
+            <div data-aos="slide-up" className="card bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
                 <div className="card-body hover:text-white hover:bg-primary transition duration-300 ease-in-out">
                     <UserGroupIcon className="icon h-12 w-12 " />
                     <h2 className="card-title">Customer Support</h2>
@@ -25,7 +25,7 @@ const BannerCard = () => {
             </div>
 
             {/* card 3 */}
-            <div className="card bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
+            <div data-aos="slide-left" className="card bg-base-100 shadow-lg hover:shadow-2xl hover:shadow-pink-400 shadow-gray-500 my-4 md:mt-[-50px]">
                 <div className="card-body hover:text-white hover:bg-primary transition duration-300 ease-in-out">
                     <PhoneIncomingIcon className="icon h-12 w-12 " />
                     <h2 className="card-title">Contact Us</h2>

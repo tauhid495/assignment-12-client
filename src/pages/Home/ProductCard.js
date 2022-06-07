@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
     const newDescription = description.slice(0, 150);
 
     return (
-        <div className='relative md:h-96 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out'>
+        <div data-aos="zoom-in-up" className='relative md:h-96 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out'>
             <div className="h-96 relative overflow-hidden bg-no-repeat bg-cover bg-white rounded-2xl">
                 <img src={img} className='' alt="Louvre" />
                 <div className="text-white absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-80 transition duration-300 ease-in-out bg-[#070315]">

@@ -25,7 +25,7 @@ const Leaflate = () => {
 
 
                     {/* map section */}
-                    <div className='md:w-5/12 '>
+                    <div data-aos="zoom-out" className='md:w-5/12 '>
                         <MapContainer className='z-10 h-[380px]' center={[22.367524, 91.779093]} zoom={13} scrollWheelZoom={false}>
                             <TileLayer
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
