@@ -14,7 +14,7 @@ const CheckoutForm = ({ order }) => {
     const { price, userName, email, _id } = order;
 
     useLayoutEffect(() => {
-        fetch('https://desolate-tor-13600.herokuapp.com/create-payment-intent', {
+        fetch('https://assignment-12-server-production.up.railway.app/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -84,7 +84,7 @@ const CheckoutForm = ({ order }) => {
                 order: _id,
                 transectionId: paymentIntent.id,
             }
-            fetch(`https://desolate-tor-13600.herokuapp.com/order/${_id}`, {
+            fetch(`https://assignment-12-server-production.up.railway.app/order/${_id}`, {
                 method: 'PATCH',
                 headers: {
                     'content-type': 'application/json',

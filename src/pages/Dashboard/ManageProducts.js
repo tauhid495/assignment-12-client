@@ -4,7 +4,7 @@ import Loading from '../../Shared/Loading';
 import ProductRow from './ProductRow';
 
 const ManageProducts = () => {
-    const { data: products, isLoading, refetch } = useQuery('products', () => fetch('https://desolate-tor-13600.herokuapp.com/product', {
+    const { data: products, isLoading, refetch } = useQuery('products', () => fetch('https://assignment-12-server-production.up.railway.app/product', {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         }

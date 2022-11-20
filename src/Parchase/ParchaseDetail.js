@@ -30,7 +30,7 @@ const ParchaseDetail = ({ order }) => {
             phone: event.phone,
         }
         console.log(order);
-        fetch('https://desolate-tor-13600.herokuapp.com/order', {
+        fetch('https://assignment-12-server-production.up.railway.app/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

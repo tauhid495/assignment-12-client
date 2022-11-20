@@ -5,7 +5,7 @@ import ReviewCard from './ReviewCard';
 
 const Reviews = () => {
 
-    const { data: reviews, isLoading, refetch } = useQuery('reviews', () => fetch('https://desolate-tor-13600.herokuapp.com/review', {
+    const { data: reviews, isLoading, refetch } = useQuery('reviews', () => fetch('https://assignment-12-server-production.up.railway.app/review', {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         }

@@ -4,7 +4,7 @@ import Loading from '../../Shared/Loading';
 import UserRow from './UserRow';
 
 const AllCustomers = () => {
-    const { data: users, isLoading, refetch } = useQuery('users', () => fetch('https://desolate-tor-13600.herokuapp.com/user', {
+    const { data: users, isLoading, refetch } = useQuery('users', () => fetch('https://assignment-12-server-production.up.railway.app/user', {
         method: 'GET',
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`

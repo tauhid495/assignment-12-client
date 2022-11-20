@@ -22,7 +22,7 @@ const UpdateProfile = () => {
             education: data.education,
         }
 
-        fetch('https://desolate-tor-13600.herokuapp.com/profile', {
+        fetch('https://assignment-12-server-production.up.railway.app/profile', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

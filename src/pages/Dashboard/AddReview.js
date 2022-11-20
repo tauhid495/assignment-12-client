@@ -24,7 +24,7 @@ const AddReview = () => {
         }
         console.log(review);
 
-        fetch('https://desolate-tor-13600.herokuapp.com/review', {
+        fetch('https://assignment-12-server-production.up.railway.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

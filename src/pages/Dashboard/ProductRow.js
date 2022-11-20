@@ -7,7 +7,7 @@ const ProductRow = ({ product, index, refetch }) => {
 
     const handleDelete = (id) => {
         // console.log({_id});
-        fetch(`https://desolate-tor-13600.herokuapp.com/product/${id}`, {
+        fetch(`https://assignment-12-server-production.up.railway.app/product/${id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

@@ -25,7 +25,7 @@ import Parchase from './Parchase/Parchase';
 import Payment from './pages/Dashboard/Payment';
 import UpdateProfile from './pages/Dashboard/UpdateProfile';
 
-import Parti from './pages/Home/Particle';
+
 
 
 
@@ -62,7 +62,7 @@ function App() {
         <Route path='/underconstruction' element={<UnderConstruction />}></Route>
       </Routes>
       <Footer />
-      <Parti />
+
     </div>
   );
 }

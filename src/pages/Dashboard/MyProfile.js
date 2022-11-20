@@ -13,7 +13,7 @@ const MyProfile = () => {
     useEffect(() => {
         if (user) {
             setLoading(true);
-            fetch(`https://desolate-tor-13600.herokuapp.com/profile?email=${user.email}`, {
+            fetch(`https://assignment-12-server-production.up.railway.app/profile?email=${user.email}`, {
                 method: 'GET',
                 headers: {
                     'content-type': 'application/json',

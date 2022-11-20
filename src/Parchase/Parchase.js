@@ -11,7 +11,7 @@ const Parchase = () => {
     const [order, setOrder] = useState({});
 
     useEffect(() => {
-        const url = `https://desolate-tor-13600.herokuapp.com/product/${orderId}`;
+        const url = `https://assignment-12-server-production.up.railway.app/product/${orderId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setOrder(data));

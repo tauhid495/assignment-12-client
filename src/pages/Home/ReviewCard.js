@@ -5,7 +5,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ReviewCard = ({ userReview }) => {
-    const { name, email, review, rating } = userReview;
+    const { name, review, rating } = userReview;
 
     return (
         <div class=" w-52 bg-base-100 shadow-xl ml-4 p-5 rounded-xl">

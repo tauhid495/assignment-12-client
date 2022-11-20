@@ -31,7 +31,7 @@ const AddProduct = () => {
                     }
 
                     // sending 
-                    fetch('https://desolate-tor-13600.herokuapp.com/product', {
+                    fetch('https://assignment-12-server-production.up.railway.app/product', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json',
