@@ -31,7 +31,7 @@ const AddProduct = () => {
                     }
 
                     // sending 
-                    fetch('https://assignment-12-server-production.up.railway.app/product', {
+                    fetch('https://motools.onrender.com/product', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json',

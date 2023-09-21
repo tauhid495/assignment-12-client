@@ -4,7 +4,7 @@ import Loading from '../../Shared/Loading';
 import ProductCard from './ProductCard';
 
 const Products = () => {
-    const { data: products, isLoading, refetch } = useQuery('products', () => fetch('https://assignment-12-server-production.up.railway.app/product', {
+    const { data: products, isLoading, refetch } = useQuery('products', () => fetch('https://motools.onrender.com/product', {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         }

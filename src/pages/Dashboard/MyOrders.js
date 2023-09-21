@@ -13,7 +13,7 @@ const MyOrders = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`https://assignment-12-server-production.up.railway.app/order?email=${user.email}`)
+            fetch(`https://motools.onrender.com/order?email=${user.email}`)
                 .then(res => res.json())
                 .then(data => setUserOrder(data))
         }

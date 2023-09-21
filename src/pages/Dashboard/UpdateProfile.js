@@ -22,7 +22,7 @@ const UpdateProfile = () => {
             education: data.education,
         }
 
-        fetch('https://assignment-12-server-production.up.railway.app/profile', {
+        fetch('https://motools.onrender.com/profile', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

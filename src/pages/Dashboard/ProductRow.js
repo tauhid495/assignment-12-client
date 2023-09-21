@@ -7,7 +7,7 @@ const ProductRow = ({ product, index, refetch }) => {
 
     const handleDelete = (id) => {
         // console.log({_id});
-        fetch(`https://assignment-12-server-production.up.railway.app/product/${id}`, {
+        fetch(`https://motools.onrender.com/product/${id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

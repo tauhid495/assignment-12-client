@@ -5,7 +5,7 @@ const useAdmin = user => {
     useEffect(() => {
         const email = user?.email;
         if (email) {
-            fetch(`https://assignment-12-server-production.up.railway.app/admin/${email}`, {
+            fetch(`https://motools.onrender.com/admin/${email}`, {
                 method: 'GET',
                 headers: {
                     'content-type': 'application/json',

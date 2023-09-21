@@ -8,7 +8,7 @@ const useToken = user => {
         const name = user?.user?.displayName;
         const currentUser = { email: email, name: name };
         if (email) {
-            fetch(`https://assignment-12-server-production.up.railway.app/user/${email}`, {
+            fetch(`https://motools.onrender.com/user/${email}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'

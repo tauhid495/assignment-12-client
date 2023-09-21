@@ -5,7 +5,7 @@ const UserRow = ({ user, refetch }) => {
 
     const { email, role } = user;
     const makeAdmin = () => {
-        fetch(`https://assignment-12-server-production.up.railway.app/user/admin/${email}`, {
+        fetch(`https://motools.onrender.com/user/admin/${email}`, {
             method: 'PUT',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

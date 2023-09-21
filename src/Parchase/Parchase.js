@@ -11,7 +11,7 @@ const Parchase = () => {
     const [order, setOrder] = useState({});
 
     useEffect(() => {
-        const url = `https://assignment-12-server-production.up.railway.app/product/${orderId}`;
+        const url = `https://motools.onrender.com/product/${orderId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setOrder(data));

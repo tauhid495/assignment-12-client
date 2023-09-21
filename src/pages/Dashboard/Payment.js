@@ -11,7 +11,7 @@ const stripePromise = loadStripe('pk_test_51L1PpSCHxuHbzG52OeWhAXxM2rfxIvZl7IQEG
 const Payment = () => {
 
     const { id } = useParams();
-    const url = `https://assignment-12-server-production.up.railway.app/order/${id}`;
+    const url = `https://motools.onrender.com/order/${id}`;
 
 
     const { data: order, isLoading } = useQuery(['order', id], () => fetch(url, {

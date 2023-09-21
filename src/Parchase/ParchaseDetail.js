@@ -30,7 +30,7 @@ const ParchaseDetail = ({ order }) => {
             phone: event.phone,
         }
         console.log(order);
-        fetch('https://assignment-12-server-production.up.railway.app/order', {
+        fetch('https://motools.onrender.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
